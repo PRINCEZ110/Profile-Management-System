@@ -1,0 +1,9 @@
+CREATE DATABASE user;
+USE user;
+CREATE TABLE profile (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    password VARCHAR(100)
+);
+SHOW TABLES;
